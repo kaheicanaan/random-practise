@@ -39,7 +39,7 @@ Prepare PostgreSQL command line tool for running the following script.
 sudo apt-get install postgresql
 ```
 
-## test
+### test
 
 To run with testing data, use the following scripts to initialize DB tables and insert test data
 ```bash
@@ -64,7 +64,7 @@ psql -h [host] -U [username] -d [database] -f src/main_q2.sql
 #### Inbound traffic load are limited
 
 There are tens/hundreds of kiosks. 
-Number of votes per second is very limited even for traffic spikes (e.g. less than 1000 votes).
+Number of votes per second is very limited even for traffic spikes (e.g. less than 1000 votes per second).
 
 #### Outbound traffic load can be high
 
