@@ -45,6 +45,6 @@ while True:
 
         # delete inserted message
         msg_q.delete_handled_msg(msg_handles)
-        print(f'Handled {len(votes_info)} data.')
+        print(f'Handled {len(votes_info)} data.', flush=True)
     else:
         time.sleep(1)
